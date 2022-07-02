@@ -1,0 +1,8 @@
+・capslockとctrlの切り替え
+caps2ctrlを使用
+・emacsキーバインド
+AutoHotKey
+・ctrl+x cを押したときにビープ音が鳴る
+BIOS設定でビープ音をOFFにする
+https://support.lenovo.com/ng/ja/solutions/HT500427
+
