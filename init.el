@@ -1,7 +1,9 @@
 ; replace C-h with backspace
 (global-set-key "\C-h" `delete-backward-char)
 ; not create backup(foo.txt~)
-(setq make-backup-files t)
+(setq make-backup-files nil)
+; not create backup("#foo.txt#")
+(setq auto-save-default nil)
 ; replace C-c with kill-ring-save(copy)
 (global-set-key "\C-c" `kill-ring-save)
 ; replace C-x x with kill-region(cut)
