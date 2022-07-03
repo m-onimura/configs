@@ -1,9 +1,12 @@
-; set backspace to C-h
-(global-set-key "\C-h" `delete-backward-char)
+; hide menu-bar
+(menu-bar-mode -1)
 ; not create backup(foo.txt~)
 (setq make-backup-files nil)
 ; not create backup("#foo.txt#")
 (setq auto-save-default nil)
+
+; set backspace to C-h
+(global-set-key "\C-h" `delete-backward-char)
 ; set wsl-copy to C-c
 (defun wsl-copy (start end)
   (interactive "r")
