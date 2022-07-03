@@ -4,6 +4,8 @@
 (setq make-backup-files nil)
 ; not create backup("#foo.txt#")
 (setq auto-save-default nil)
+; when cursor is at bottom(top), C-n(C-p) move one line
+(setq scroll-step 1)
 
 ; set backspace to C-h
 (global-set-key "\C-h" `delete-backward-char)
